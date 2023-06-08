@@ -1,0 +1,12 @@
+# Pseudo Code
+
+while(start != end) do
+    if(path_ahead_available)then
+        move forward
+    else if (left_turn_available) then
+        move left
+    if (key_found) then
+        unlock lock
+    else if(diffuser_Found) then
+        diffuse bomb
+    
