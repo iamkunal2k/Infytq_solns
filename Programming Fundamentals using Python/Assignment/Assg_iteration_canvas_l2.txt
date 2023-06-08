@@ -1,0 +1,10 @@
+# Psuedo Code
+
+display Nightsky
+display Moon
+display Snow
+display Mountain
+for(counter = 0; counter <=2; counter++) {
+    add tree
+}
+add Sheep
