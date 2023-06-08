@@ -1,0 +1,10 @@
+# Psuedo Code
+
+display Daylight
+for(counter=0; counter<=3; counter++) {
+    add Mountain
+}
+
+for (counter=0; counter<=2; counter++) {
+    add sheep
+}
