@@ -9,8 +9,8 @@ train_list=[
 def get_train_name (train_no):
     #start writing your code here
     for i in train_list:
-        if train_no == i['train_no']:
-            return i['name']
+        if i['train_no'] == train_no :
+            return i
     
     return "Invalid Train_no"
             
@@ -33,8 +33,9 @@ def get_total_fare(train_no,passenger_dict):
         if train_no == i['train_no']:
             total_fare = i['sleeper_fare']*passenger_dict['sleeper'] + i['ac_fare']*passenger_dict['ac']
             return total_fare
- 
-    
+    else:
+        return "Invalid Train_no"
+
 print(get_train_name(25627))
 print(get_trains_for_day("Mo"))
 print(get_total_fare(25627,{"sleeper":10, "ac":10}))
