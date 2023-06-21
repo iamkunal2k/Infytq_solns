@@ -1,3 +1,6 @@
+# Problem Link
+# https://infytq.onwingspan.com/web/en/viewer/hands-on/lex_auth_012751861844041728222_shared?collectionId=lex_auth_0125409722749255681063_shared&collectionType=Course&pathId=lex_auth_0127475769196216322339_shared
+
 class Parrot:
     __counter = 7000
     def __init__(self, name, color) :
